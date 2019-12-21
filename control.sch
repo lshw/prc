@@ -36,7 +36,7 @@ device=RESISTOR
 T 42400 52700 5 10 1 1 180 0 1
 refdes=R5
 T 42700 52300 5 10 1 1 0 0 1
-value=24.9K
+value=27K
 T 42700 52300 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -128,7 +128,7 @@ refdes=C1
 T 41500 53400 5 10 0 0 90 0 1
 symversion=0.1
 T 42200 54200 5 10 1 1 0 0 1
-netname=10uF/35V
+value=10uF/50V
 T 42400 53200 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -304,7 +304,7 @@ device=RESISTOR
 T 47900 52500 5 10 1 1 180 0 1
 refdes=R2
 T 48200 52100 5 10 1 1 0 0 1
-value=40.2K
+value=39K
 T 48200 52100 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -344,7 +344,7 @@ device=RESISTOR
 T 47700 51700 5 10 1 1 180 0 1
 refdes=R6
 T 46700 51200 5 10 1 1 0 0 1
-value=68.1K
+value=68K
 T 47400 51200 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -384,7 +384,7 @@ device=RESISTOR
 T 48300 53500 5 10 1 1 0 0 1
 refdes=R1
 T 48000 53900 5 10 1 1 0 0 1
-value=124K
+value=120K
 T 48000 53900 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -562,7 +562,7 @@ refdes=C3
 T 47100 51400 5 10 0 0 180 0 1
 symversion=0.1
 T 46900 51800 5 10 1 1 180 0 1
-value=220P
+value=220pF
 T 47300 52300 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -822,9 +822,9 @@ refdes=C2
 T 48300 53900 5 10 0 0 90 6 1
 symversion=0.1
 T 49200 54100 5 10 1 1 0 0 1
-value=22uF/6.3v
+value=100uF/6.3v
 T 49200 54100 5 10 0 0 0 0 1
-footprint=EIA3216
+footprint=EIA3528
 }
 C 49300 46900 1 0 0 EMBEDDEDATmega8-au.sym
 [
@@ -1154,6 +1154,8 @@ T 51600 51500 5 10 1 1 0 6 1
 refdes=U3
 T 49400 52500 5 10 0 0 0 0 1
 device=ATmega8
+T 49300 46900 5 10 1 1 0 0 1
+value=atmega328
 }
 C 57600 52900 1 90 0 EMBEDDEDdiode-2.sym
 [
@@ -1237,10 +1239,10 @@ refdes=R?
 {
 T 56850 53400 5 10 0 0 270 0 1
 device=RESISTOR
-T 57700 53500 5 10 1 1 0 0 1
+T 56700 53500 5 10 1 1 0 0 1
 refdes=R7
-T 56100 53200 5 10 1 1 0 0 1
-value=3M
+T 56700 53300 5 10 1 1 0 0 1
+value=1M
 T 56500 53800 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1351,12 +1353,12 @@ refdes=Q?
 {
 T 56700 51700 5 10 0 0 0 0 1
 device=NMOS_TRANSISTOR
-T 56900 52100 5 10 1 1 0 0 1
-footprint=Si2306
 T 56800 51800 5 10 1 1 0 0 1
 refdes=Q1
 T 56100 51200 5 10 0 0 0 0 1
-footprint=SOT23-5
+footprint=SOT23
+T 56900 51400 5 10 1 1 0 0 1
+value=AO3400A
 }
 C 56500 50900 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -1562,6 +1564,8 @@ T 45200 50000 5 10 1 1 0 6 1
 refdes=U2
 T 43800 50350 5 10 0 0 0 0 1
 footprint=SO16
+T 43500 46500 5 10 1 1 0 0 1
+value=SP3232
 }
 N 49300 51000 48500 51000 4
 {
@@ -2978,7 +2982,7 @@ device=RESISTOR
 T 48700 46800 5 10 1 1 0 6 1
 refdes=R9
 T 48100 46900 5 10 1 1 270 6 1
-value=3.3k
+value=10k
 T 48100 46600 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -3059,7 +3063,7 @@ footprint=0603
 T 47600 46500 5 10 1 1 180 6 1
 refdes=LED1
 T 47700 45600 5 10 1 1 0 0 1
-value=red
+value=blue
 }
 T 49500 47500 5 10 1 1 0 6 1
 netname=P87
@@ -3246,7 +3250,7 @@ T 55500 50400 5 10 0 0 0 0 1
 device=DIODE
 T 55400 50600 5 10 1 1 180 0 1
 refdes=D3
-T 56300 50100 5 10 1 1 0 0 1
+T 55800 50000 5 10 1 1 0 0 1
 value=ds18b20
 T 55100 49800 5 10 0 0 0 0 1
 footprint=TO92
@@ -3325,7 +3329,7 @@ device=RESISTOR
 T 53600 50700 5 10 1 1 0 0 1
 refdes=R10
 T 52800 50600 5 10 1 1 0 0 1
-value=3.3K
+value=3.3k
 T 53300 51100 5 10 0 0 0 0 1
 footprint=0402
 }
