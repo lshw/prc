@@ -4,4 +4,6 @@
   
 输入电压5-30V  
 
-开发环境：arduino  
+开发环境：arduino 
+
+![Image](https://github.com/lshw/prc/blob/master/control.png?raw=true) 
