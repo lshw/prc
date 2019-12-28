@@ -36,7 +36,7 @@ device=RESISTOR
 T 42400 52700 5 10 1 1 180 0 1
 refdes=R5
 T 42700 52300 5 10 1 1 0 0 1
-value=27K
+value=72k
 T 42700 52300 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -226,7 +226,7 @@ device=RESISTOR
 T 43300 51800 5 10 1 1 180 0 1
 refdes=R3
 T 43500 51300 5 10 1 1 0 0 1
-value=200K
+value=200k
 T 43500 51300 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -304,7 +304,7 @@ device=RESISTOR
 T 47900 52500 5 10 1 1 180 0 1
 refdes=R2
 T 48200 52100 5 10 1 1 0 0 1
-value=39K
+value=39k
 T 48200 52100 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -344,7 +344,7 @@ device=RESISTOR
 T 47700 51700 5 10 1 1 180 0 1
 refdes=R6
 T 46700 51200 5 10 1 1 0 0 1
-value=68K
+value=68k
 T 47400 51200 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -384,7 +384,7 @@ device=RESISTOR
 T 48300 53500 5 10 1 1 0 0 1
 refdes=R1
 T 48000 53900 5 10 1 1 0 0 1
-value=120K
+value=120k
 T 48000 53900 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -505,7 +505,7 @@ refdes=C4
 T 45400 55600 5 10 0 0 0 0 1
 symversion=0.1
 T 45800 55000 5 10 1 1 0 0 1
-value=0.01uF
+value=100nF
 T 45200 54700 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1202,7 +1202,7 @@ refdes=D2
 T 57400 53000 5 10 1 1 0 0 1
 value=20V
 T 57600 52900 5 10 0 0 0 0 1
-footprint=DO-214AA
+footprint=0805
 }
 N 53900 55300 42200 55300 4
 N 42200 55300 42200 54100 4
@@ -1623,7 +1623,7 @@ device=RESISTOR
 T 54500 49600 5 10 1 1 180 0 1
 refdes=R11
 T 54200 49200 5 10 1 1 0 0 1
-value=10K
+value=10k
 T 54100 49000 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1712,7 +1712,7 @@ refdes=C5
 T 46200 46200 5 10 0 0 0 6 1
 symversion=0.1
 T 46200 45100 5 10 1 1 0 6 1
-value=0.1uF
+value=100nF
 T 46400 45300 5 10 0 0 0 6 1
 footprint=0402
 }
@@ -1773,7 +1773,7 @@ refdes=C6
 T 42800 50300 5 10 0 0 0 0 1
 symversion=0.1
 T 43200 49400 5 10 1 1 0 0 1
-value=0.1uF
+value=100nF
 T 42600 49400 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1824,7 +1824,7 @@ refdes=C7
 T 42800 49500 5 10 0 0 0 0 1
 symversion=0.1
 T 43200 48500 5 10 1 1 0 0 1
-value=0.1uF
+value=100nF
 T 42600 48600 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1875,7 +1875,7 @@ refdes=C9
 T 45700 50300 5 10 0 0 0 0 1
 symversion=0.1
 T 46000 49400 5 10 1 1 0 0 1
-value=0.1uF
+value=100nF
 T 45500 49400 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1926,7 +1926,7 @@ refdes=C10
 T 45700 49500 5 10 0 0 0 0 1
 symversion=0.1
 T 45800 48400 5 10 1 1 0 0 1
-value=0.1uF
+value=100nF
 T 45500 48600 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1977,7 +1977,7 @@ refdes=C8
 T 43800 48800 5 10 0 0 90 0 1
 symversion=0.1
 T 44700 48600 5 10 1 1 0 0 1
-value=0.1uF
+value=100nF
 T 44700 48600 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -3600,7 +3600,7 @@ symversion=0.1
 T 49200 45600 5 10 0 0 0 0 1
 footprint=0402
 T 49200 45600 5 10 1 1 0 0 1
-value=22p
+value=22pF
 }
 C 49900 45600 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -3651,7 +3651,7 @@ symversion=0.1
 T 49900 45600 5 10 0 0 0 0 1
 footprint=0402
 T 49900 45600 5 10 1 1 0 0 1
-value=22p
+value=22pF
 }
 C 49100 45300 1 0 1 EMBEDDEDgnd-1.sym
 [

@@ -36,7 +36,7 @@ device=RESISTOR
 T 42400 52700 5 10 1 1 180 0 1
 refdes=R5
 T 42700 52300 5 10 1 1 0 0 1
-value=27k
+value=72k
 T 42700 52300 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -505,7 +505,7 @@ refdes=C4
 T 45400 55600 5 10 0 0 0 0 1
 symversion=0.1
 T 45800 55000 5 10 1 1 0 0 1
-value=10nF
+value=100nF
 T 45200 54700 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -1202,7 +1202,7 @@ refdes=D2
 T 57400 53000 5 10 1 1 0 0 1
 value=20V
 T 57600 52900 5 10 0 0 0 0 1
-footprint=DO-214AA
+footprint=0805
 }
 N 53900 55300 42200 55300 4
 N 42200 55300 42200 54100 4
