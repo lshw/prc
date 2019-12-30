@@ -2405,7 +2405,7 @@ refdes=U?
 T 57400 44100 5 10 0 0 0 0 1
 device=P521
 T 55500 42600 5 10 0 0 270 0 1
-footprint=EL357N
+footprint=so4
 T 57300 44200 5 10 1 1 0 6 1
 refdes=U9
 T 56800 42800 5 10 1 1 0 8 1
@@ -2545,7 +2545,7 @@ refdes=U?
 T 57400 46800 5 10 0 0 0 0 1
 device=P521
 T 55500 45300 5 10 0 0 270 0 1
-footprint=EL357N
+footprint=so4
 T 57300 46900 5 10 1 1 0 6 1
 refdes=U8
 T 56900 45600 5 10 1 1 0 8 1

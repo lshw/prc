@@ -862,7 +862,7 @@ Element["" "DO-214AA" "L1" "10uH" 27.7000mm 6.9780mm -0.4000mm -5.8560mm 0 82 ""
 
 	)
 
-Element["" "0402" "R6" "68k" 37.3998mm 10.7000mm 0.8300mm -0.7653mm 0 81 ""]
+Element["" "0402" "R6" "68k" 37.4000mm 10.8000mm 0.8300mm -0.7653mm 0 81 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -934,47 +934,7 @@ Element["" "0603" "LED1" "blue" 2.0860mm 22.0380mm -0.2210mm -1.6466mm 0 63 ""]
 
 	)
 
-Element["" "EL357N" "U8" "EL357N" 16.9680mm 20.4640mm -1.8040mm -2.9320mm 0 82 ""]
-(
-	Attribute("device" "P521")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 245.00mil 0.0000 340.00mil 0.6080mm 40.00mil 1.6240mm "4" "4" "square,edge2"]
-	Pad[-100.00mil 245.00mil -100.00mil 340.00mil 0.6080mm 40.00mil 1.6240mm "3" "3" "square,edge2"]
-	Pad[-100.00mil -55.00mil -100.00mil 40.00mil 0.6080mm 40.00mil 1.6240mm "2" "2" "square"]
-	Pad[0.0000 -55.00mil 0.0000 40.00mil 0.6080mm 40.00mil 1.6240mm "1" "1" "square"]
-	ElementLine [50.00mil -55.00mil 50.00mil 95.00mil 10.00mil]
-	ElementLine [50.00mil 195.00mil 50.00mil 345.00mil 10.00mil]
-	ElementLine [-160.00mil -55.00mil -160.00mil 345.00mil 10.00mil]
-	ElementLine [-160.00mil -55.00mil 50.00mil -55.00mil 10.00mil]
-	ElementLine [-160.00mil 345.00mil 50.00mil 345.00mil 10.00mil]
-	ElementArc [50.00mil 145.00mil 50.00mil 50.00mil 270.000000 180.000000 10.00mil]
-
-	)
-
-Element["" "EL357N" "U9" "EL357N" 11.2966mm 20.4899mm -1.7067mm -2.7865mm 0 82 ""]
-(
-	Attribute("device" "P521")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 245.00mil 0.0000 340.00mil 0.6080mm 40.00mil 1.6240mm "4" "4" "square,edge2"]
-	Pad[-100.00mil 245.00mil -100.00mil 340.00mil 0.6080mm 40.00mil 1.6240mm "3" "3" "square,edge2"]
-	Pad[-100.00mil -55.00mil -100.00mil 40.00mil 0.6080mm 40.00mil 1.6240mm "2" "2" "square"]
-	Pad[0.0000 -55.00mil 0.0000 40.00mil 0.6080mm 40.00mil 1.6240mm "1" "1" "square"]
-	ElementLine [50.00mil -55.00mil 50.00mil 95.00mil 10.00mil]
-	ElementLine [50.00mil 195.00mil 50.00mil 345.00mil 10.00mil]
-	ElementLine [-160.00mil -55.00mil -160.00mil 345.00mil 10.00mil]
-	ElementLine [-160.00mil -55.00mil 50.00mil -55.00mil 10.00mil]
-	ElementLine [-160.00mil 345.00mil 50.00mil 345.00mil 10.00mil]
-	ElementArc [50.00mil 145.00mil 50.00mil 50.00mil 270.000000 180.000000 10.00mil]
-
-	)
-
-Element["" "1206" "C1" "10uF/50V" 1500.00mil 12.3000mm -0.2000mm -0.8762mm 0 82 ""]
+Element["" "1206" "C1" "10uF/50V" 1500.00mil 500.00mil -0.2000mm -0.8762mm 0 82 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1031,7 +991,7 @@ Element["" "0402" "R15" "1.5k" 11.3000mm 17.6997mm 0.8672mm -0.6275mm 0 82 ""]
 
 	)
 
-Element["" "0402" "R14" "3.3k" 6.7000mm 19.8000mm -1.2818mm -2.0866mm 0 82 ""]
+Element["" "0402" "R14" "10k" 6.7000mm 19.8000mm -1.2818mm -2.0866mm 0 82 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1067,7 +1027,7 @@ Element["" "0402" "R13" "1.5k" 18.8040mm 21.8222mm -0.4390mm -1.0952mm 1 63 ""]
 
 	)
 
-Element["" "0402" "R12" "3.3k" 18.8500mm 29.6423mm -1.1940mm -4.3502mm 1 82 ""]
+Element["" "0402" "R12" "10k" 18.8500mm 29.6423mm -1.1940mm -4.3502mm 1 82 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1413,7 +1373,7 @@ Element["" "SO8" "U11" "AO4407A" 43.2700mm 14.2000mm -0.0780mm -0.0540mm 0 100 "
 
 	)
 
-Element["" "EIA3528" "C2" "100uF/6.3v" 32.8420mm 13.3940mm -4.6605mm -1.9510mm 0 82 ""]
+Element["" "EIA3528" "C2" "100uF/6.3v" 32.8420mm 13.6940mm -4.6605mm -1.9510mm 0 82 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1540,7 +1500,7 @@ Element["" "DO-214AA" "D1" "SS34" 34.6780mm 2.3000mm -4.2500mm -1.4780mm 0 82 ""
 
 	)
 
-Element["" "0402" "R1" "120k" 32.1998mm 10.6000mm -2.2000mm -31.50mil 0 82 ""]
+Element["" "0402" "R1" "120k" 32.2000mm 10.7000mm -2.2000mm -31.50mil 0 82 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1564,7 +1524,7 @@ Element["" "0402" "C4" "100nF" 1381.90mil 4.5000mm -2.2318mm -0.5396mm 0 82 ""]
 
 	)
 
-Element["" "0402" "R2" "39k" 33.9998mm 10.6004mm 0.1842mm -1.5501mm 0 63 ""]
+Element["" "0402" "R2" "39k" 34.0000mm 10.7000mm 0.1842mm -1.5501mm 0 63 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1576,7 +1536,7 @@ Element["" "0402" "R2" "39k" 33.9998mm 10.6004mm 0.1842mm -1.5501mm 0 63 ""]
 
 	)
 
-Element["" "0402" "C3" "220pF" 35.8002mm 10.7000mm -0.2226mm -1.7795mm 0 82 ""]
+Element["" "0402" "C3" "220pF" 35.8002mm 10.8000mm -0.2226mm -1.7795mm 0 82 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1772,6 +1732,46 @@ Element["" "0805" "D2" "20V" 37.5000mm 16.8040mm -0.7300mm 2.3400mm 0 82 ""]
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
 	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
 	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["" "so4" "U8" "EL357N" 16.9680mm 20.4640mm -1.8040mm -2.9320mm 0 82 ""]
+(
+	Attribute("device" "P521")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[0.0000 232.50mil 0.0000 280.00mil 0.6080mm 40.00mil 1.6240mm "4" "4" "edge2"]
+	Pad[-100.00mil 232.50mil -100.00mil 277.50mil 0.6080mm 40.00mil 1.6240mm "3" "3" "edge2"]
+	Pad[-100.00mil -20.00mil -100.00mil 27.50mil 0.6080mm 40.00mil 1.6240mm "2" "2" ""]
+	Pad[0.0000 -20.00mil 0.0000 27.50mil 0.6080mm 40.00mil 1.6240mm "1" "1" ""]
+	ElementLine [50.00mil -30.00mil 50.00mil 82.50mil 10.00mil]
+	ElementLine [50.00mil 182.50mil 50.00mil 282.50mil 10.00mil]
+	ElementLine [-160.00mil -30.00mil -160.00mil 282.50mil 10.00mil]
+	ElementLine [-160.00mil -30.00mil 50.00mil -30.00mil 10.00mil]
+	ElementLine [-160.00mil 282.50mil 50.00mil 282.50mil 10.00mil]
+	ElementArc [50.00mil 132.50mil 50.00mil 50.00mil 270.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "so4" "U9" "EL357N" 11.2966mm 20.4899mm -1.7067mm -2.7865mm 0 82 ""]
+(
+	Attribute("device" "P521")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[0.0000 232.50mil 0.0000 280.00mil 0.6080mm 40.00mil 1.6240mm "4" "4" "edge2"]
+	Pad[-100.00mil 232.50mil -100.00mil 277.50mil 0.6080mm 40.00mil 1.6240mm "3" "3" "edge2"]
+	Pad[-100.00mil -20.00mil -100.00mil 27.50mil 0.6080mm 40.00mil 1.6240mm "2" "2" ""]
+	Pad[0.0000 -20.00mil 0.0000 27.50mil 0.6080mm 40.00mil 1.6240mm "1" "1" ""]
+	ElementLine [50.00mil -30.00mil 50.00mil 82.50mil 10.00mil]
+	ElementLine [50.00mil 182.50mil 50.00mil 282.50mil 10.00mil]
+	ElementLine [-160.00mil -30.00mil -160.00mil 282.50mil 10.00mil]
+	ElementLine [-160.00mil -30.00mil 50.00mil -30.00mil 10.00mil]
+	ElementLine [-160.00mil 282.50mil 50.00mil 282.50mil 10.00mil]
+	ElementArc [50.00mil 132.50mil 50.00mil 50.00mil 270.000000 180.000000 10.00mil]
 
 	)
 Layer(1 "top" "copper")
@@ -2206,6 +2206,10 @@ Layer(1 "top" "copper")
 	Line[28.5913mm 14.8913mm 30.1000mm 16.4000mm 0.2080mm 40.00mil "clearline"]
 	Line[30.1000mm 16.4000mm 34.0000mm 16.4000mm 0.2080mm 40.00mil "clearline"]
 	Line[34.0000mm 16.4000mm 34.1500mm 16.5500mm 0.2080mm 40.00mil "clearline"]
+	Line[16.9680mm 26.9728mm 16.9680mm 28.3680mm 0.4080mm 40.00mil "clearline"]
+	Line[14.4280mm 26.9410mm 14.4280mm 28.2720mm 0.4080mm 40.00mil "clearline"]
+	Line[11.2966mm 26.9987mm 11.2966mm 28.2966mm 0.4080mm 40.00mil "clearline"]
+	Line[8.7566mm 26.9669mm 8.7566mm 28.8000mm 0.4080mm 40.00mil "clearline"]
 	Arc[5.1340mm 25.0440mm 1.5660mm 1.5660mm 0.2080mm 40.00mil 90.000000 90.000000 "clearline"]
 	Arc[25.6345mm 15.1439mm 1.2345mm 1.2345mm 0.2080mm 40.00mil -90.000000 90.000000 "clearline"]
 	Arc[23.1439mm 15.1439mm 1.2561mm 1.2561mm 0.2080mm 40.00mil 90.000000 90.000000 "clearline"]
